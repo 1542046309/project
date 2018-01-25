@@ -1,0 +1,152 @@
+@import 'common.scss';
+
+#headernew{
+    height: 30px;
+    width: 100%;
+    background: #eeeeee;
+
+}
+#header{
+    width: 1349px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 30px;
+    height: 30px;
+    margin: 0 auto;
+    .img1{
+        width: 15px;
+        height: 12px;
+    }
+    .img2{
+        width: 12px;
+        height: 7px;
+    }
+
+    #leftheader{
+        margin-left: 44px;
+            li{
+                float: left;
+                padding: 0 8px;
+                cursor: pointer;
+                &:last-child{
+                    color: #65a031;
+                }
+                &:last-child:hover{
+                    text-decoration: underline;
+                }
+                }
+            a{
+                font-size: 12px;
+                color: #999999;
+                padding: 0 4px;
+            }
+            .oneli{
+                    background: #eee;
+                    
+                }
+    }
+    #rightheader{
+      margin-right: 40px;
+     
+        li{
+            float: right;
+            cursor: pointer;
+            padding: 0 12px;
+            &:nth-child(5):hover{
+                color: #f6ab00;
+                text-decoration: underline;
+            }
+            &:nth-child(9):hover{
+                color: #f6ab00;
+                text-decoration: underline;
+            }
+            &:nth-child(11):hover{
+                color: #f6ab00;
+                text-decoration: underline;
+            }
+        }
+        .li3{
+            background: #eee;
+        }
+        .li4{
+            background: #eee;
+        }
+        span{
+            float: right;
+            width: 1px;
+            height: 13px;
+            background: #999999;
+            margin: 0 8px;
+            margin-top: 9px;
+            
+        }
+        .dd{
+            display: none;
+        }
+        .img3{
+            width: 12px;
+            line-height: 30px;
+            position: relative;
+            top: 2px;
+            left: 0px;
+
+        }
+        .img4{
+            width: 14px;
+            height: 14px;
+            padding-right: 4px;
+            position: relative;
+            top: 2px;
+            left: 0px;
+        }
+    }
+}
+#logomall{
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    
+    #logonav{
+    width: 1349px;
+    height: 120px;
+    margin: 0 auto;
+    }
+    #logo {
+        position: relative;
+        top: 0;
+        left: -10px;
+        float: left;
+        padding-right: 20px;
+        img{
+            width: 334px;
+            height: 116px;
+        }
+    }
+    #navright{
+        width: 383px;
+        height: 53px;
+//      background: red;
+        position: relative;
+        top: 20px;
+        right: 80px;
+      float: right;
+      background: url(../img/navs.png) no-repeat top right;
+     
+       
+      
+    }
+        p{       float: left;
+               
+                 width: 150px;
+                    height: 17px;
+                    font-size: 12px;
+                    color: #64A131;
+                    position: relative;
+                    top: 72px;
+                    right: -531px;
+                    margin-left: 4px;
+              
+       }
+}
+#logonav{
+    box-shadow: 0 2px 8px rgba(230,230,230,0.75);    
+}

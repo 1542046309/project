@@ -1,0 +1,737 @@
+@import 'common.scss';
+
+#headernew{
+    height: 30px;
+    width: 100%;
+    background: #eeeeee;
+
+}
+#header{
+    width: 1349px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 30px;
+    height: 30px;
+    margin: 0 auto;
+    .img1{
+        width: 15px;
+        height: 12px;
+    }
+    .img2{
+        width: 12px;
+        height: 7px;
+    }
+
+    #leftheader{
+        margin-left: 44px;
+            li{
+                float: left;
+                padding: 0 8px;
+                cursor: pointer;
+                &:last-child{
+                    color: #65a031;
+                }
+                &:last-child:hover{
+                    text-decoration: underline;
+                }
+                }
+            a{
+                font-size: 12px;
+                color: #999999;
+                padding: 0 4px;
+            }
+            .oneli{
+                    background: #eee;
+                    
+                }
+    }
+    #rightheader{
+      margin-right: 40px;
+        li{
+            float: right;
+            cursor: pointer;
+            padding: 0 12px;
+            &:nth-child(5):hover{
+                color: #f6ab00;
+                text-decoration: underline;
+            }
+            &:nth-child(9):hover{
+                color: #f6ab00;
+                text-decoration: underline;
+            }
+            &:nth-child(11):hover{
+                color: #f6ab00;
+                text-decoration: underline;
+            }
+        }
+        .li3{
+            background: #eee;
+        }
+        .li4{
+            background: #eee;
+        }
+        span{
+            float: right;
+            width: 1px;
+            height: 13px;
+            background: #999999;
+            margin: 0 8px;
+            margin-top: 9px;
+            
+        }
+        .dd{
+            display: none;
+        }
+        .img3{
+            width: 12px;
+            line-height: 30px;
+            position: relative;
+            top: 2px;
+            left: 0px;
+
+        }
+        .img4{
+            width: 14px;
+            height: 14px;
+            padding-right: 4px;
+            position: relative;
+            top: 2px;
+            left: 0px;
+        }
+    }
+}
+#logomall{
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    
+    #logonav{
+    width: 1349px;
+    height: 120px;
+    margin: 0 auto;
+    }
+    #logo {
+        position: relative;
+        top: 0;
+        left: -10px;
+        float: left;
+        padding-right: 20px;
+        img{
+            width: 334px;
+            height: 116px;
+        }
+    }
+    #nav{
+       .li1{
+           a{
+               color: #999;
+           }
+       }
+       #fruitli{
+           a{
+               color: #999;
+           }
+       }
+        li{ float: left;
+            width: 91px;
+            height: 80px;
+            padding-top: 40px;
+            text-align: center;
+
+
+            &:last-child{
+                a{
+                    border:none;
+                    
+                }
+            }
+            
+            a{  
+                display: block;
+                font-size: 14px;
+                height: 40px;
+                
+                border-right: 1px solid #eee;
+                &:hover{
+                    background: #eee;
+                }
+                
+            }
+
+            span{
+                display: block;
+                font-size: 14px;
+                
+            }
+            b{
+                height: 2px;
+                width: 82px;
+                background: #64a131;
+                display: inline-block;
+                position: relative;
+                left: 0;
+                top: 21px;
+            }
+        }
+    }
+    #soso{
+        float: right;
+        width: 237px;
+        height: 120px;
+//      background: bisque;
+        margin-right: 60px;
+        position: relative;
+       #soinput{
+           width: 144px;
+           height: 27px;
+           border: none;
+           line-height: 120px;
+           padding-top: 20px;
+           outline: none;
+           position: relative;
+           top: 20px;
+           
+       }
+       #soa{
+           width: 16px;
+           height: 16px;
+           position: relative;
+           right: -150px;
+           top: 0px;
+           img{
+               display: inline-block;
+           }
+       }
+        #kind{
+            font-size: 12px;
+            color: #999999;
+            width: 180px;
+            height: 23px;
+            border-top: 1px solid #999;
+            overflow:hidden;
+            a{
+                font-size: 12px;
+                color: #999999;
+               
+            }
+            
+        }
+        span{
+
+            img{
+                position: absolute;
+                right: 0;
+                top: 40px;
+                width: 40px;
+                height: 40px;
+                background: #64a131;
+
+                
+            }
+        }
+    }
+}
+#logonav{
+    box-shadow: 0 2px 8px rgba(230,230,230,0.75);    
+}
+.bread{
+    width: 1280px;
+    height: 14px;
+//  background: violet;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    a{
+        font-size: 14px;
+        color: #64a131;
+    }
+    span{
+        font-size: 14px;
+        color: #999;
+    }
+}
+#gress{
+    width: 1280px;
+    height: 560px;
+//  background: antiquewhite;
+    margin: 0 auto;
+    #small-box{
+            width: 138px;
+            height: 138px;
+            float: left;
+             img{
+                width: 136px;
+                height: 136px;
+                display: block;
+                margin-bottom: 2px;
+            }
+        }
+    #enlarge-box{
+        width: 562px;
+        height: 560px;
+        float: left;
+        position: relative;
+        
+           
+
+        #middle-box{
+                width: 560px;
+                height: 560px;
+                float: left;
+            img{
+                width: 560px;
+                height: 560px;
+            }
+            #shadow{
+                position: absolute;
+                left: -1000px;
+                top: 0;
+                width: 128px;
+                height: 128px;
+                background: #FEDE4F;
+                opacity: .5;
+                
+            }
+        }
+        #large-box {
+              display: none;
+                position: relative;
+                top: -550px;
+                left: 750px;
+                width: 300px;
+                height: 300px;
+                overflow: hidden;
+            #large-img{
+                position: absolute;
+                height:1000px;
+            
+            }
+        }
+    }
+    #gress2{
+        width: 580px;
+        height: 478px;
+        float: left;
+        margin-top: 20px;
+        .h{
+            margin-left: 28px;
+            h3{
+                width: 470px;
+                line-height: 40px;
+                color: #555555;
+                font-size: 24px;
+                font-weight: 100;
+                
+            }
+            p{
+                width: 470px;
+                line-height: 48px;
+                font-size: 16px;
+                color: #999;
+            }
+        }
+        .hone{
+            background: url(../img/b1.png) no-repeat left top;
+            width: 552px;
+            height: 75px;
+            margin-left: 30px;
+            .h1left{
+                height: 75px;
+                float: left;
+                h5{
+                    color: #999999;
+                    width: 60px;
+                    float: left;
+                    line-height: 75px;
+                    margin-left: 10px;
+                    font-weight: 100;
+                }
+            span{
+                color: #64a131;
+                font-weight: bold;
+                width: 124px;
+                float: left;
+                line-height: 72px;
+                font-size: 26px;
+                }
+            }
+            .h1right{
+                float: right;
+                height: 26px;
+                width: 56px;
+                position: relative;
+                top: 24px;
+                right: 0px;
+                img{
+                    &:hover{
+                        width: 200px;
+                        height: 200px;
+                        position: relative;
+                        right: 170px;
+                        top: -90px;
+                    }
+                }
+            }
+            
+        }
+        .htwo{
+            width: 550px;
+            height: 28px;
+            margin-left: 30px;
+            margin-top: 40px;
+            h5{
+                    color: #999999;
+                    width: 60px;
+                    float: left;
+                    line-height: 28px;
+                    margin-left: 10px;
+                    font-weight: 100;
+                    float: left;
+            }
+            span{
+                width: 66px;
+                height: 26px;
+                color: #fff;
+                background: #64a131;
+                border: 1px solid #ddd;
+                cursor: pointer;
+                font-size: 12px;
+                text-align: center;
+                display: block;
+                float: left;
+                line-height: 26px;
+            }
+        }
+        .hthree{
+            width: 550px;
+            height: 34px;
+            margin-left: 30px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            h5{
+                    color: #999999;
+                    width: 60px;
+                    float: left;
+                    line-height: 34px;
+                    margin-left: 10px;
+                    font-weight: 100;
+                    float: left;
+            }
+            .strh{
+                    float: left;
+                    width: 72px;
+                    height: 34px;
+                    border: 1px solid #ddd;
+                    position: relative;
+                    
+                    p{
+                        font-size: 14px;
+                        margin-left: 10px;
+                        line-height: 34px;
+                        color: #333;
+                    }
+                    i{
+                        position: absolute;
+                        top: 10px;
+                        right: 16px;
+                        width: 14px;
+                        height: 14px;
+                        color: #999;
+                       
+                    }
+                    .strh2{
+                        width: 352px;
+                        height: 162px;
+//                      background: violet;
+                        position: absolute;
+                        left: -47px;
+                        top: 30px;
+                        display: none;
+                        border: 1px solid #ddd;
+                        background: white;
+                        .shangh{
+                            width: 79px;
+                            height: 25px;
+                            border: 2px solid #64a131;
+                            margin-top: 20px;
+                            margin-left: 20px;
+                            border-bottom: none;
+                            background: white;
+                            position: relative;
+                            .deleimg{
+                                position: absolute;
+                                right: -263px;
+                                top: -32px;
+                            }
+                            p{
+                               font-size: 14px;
+                               font-weight: 600;
+                               line-height: 25px;
+                            }
+                            i{
+                               font-size: 10px;
+                                position: absolute;
+                                left: 60px;
+                                top: 7px;
+                            }
+                        }
+                        .shangs{
+                            width: 320px;
+                            height: 95px;
+                            margin-left: 20px;
+                            margin-top: -2px;
+                            border-top: 2px solid #64a131;
+                            li{
+                                width: 80px;
+                                height: 30px;
+                                float: left;
+                                margin-top: 5px;
+                                text-align: center;
+                                a{
+                                    width: 36px;
+                                    height: 24px;
+                                    font-size: 14px;
+                                    color: #999;
+                                    
+                                    &:hover{
+                                        background: #64a131;
+                                        color: white;
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+            }
+            span{
+                    width: 100px;
+                    height: 28px;
+                    color:#64a131 ;
+                    font-size: 14px;
+                    margin-left: 10px;
+                    line-height: 2.5;
+            }
+        }
+        .hfour{
+                    width: 540px;
+                    height:28px ;
+                    margin-left: 40px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                h5{
+                     color: #999999;
+
+                        float: left;
+                        line-height: 28px;
+                      
+                        font-weight: 100;
+                      
+                }
+                .fourinput{
+                            margin-left: 34px;
+                            float: left;
+                            width: 93px;
+                            height: 24px;
+                            border: 1px solid #ddd;
+                            border-radius: 1px;
+                            vertical-align: bottom;
+                            
+                    span{
+                        width: 29px;
+                        height: 24px;
+                        display: inline-block;
+                        background-color: #eeeeee;
+                        color: #a6a6a6;
+                        text-align: center;
+                        line-height: 22px;
+                        cursor: pointer;
+                        float: left;
+                    }
+                    input{
+                        width: 35px;
+                        height: 24px;
+                        border: none;
+                        outline: none;
+                        display: block;
+                        float: left;
+                        text-align: center;
+                    }
+                }
+        }
+        .hfive{
+            width: 540px;
+            height: 36px;
+            margin-left: 40px;
+            margin-bottom: 20px;
+           
+            .fiveone{
+                
+                input{
+                    width: 160px;
+                    height: 36px;
+                    color: #7daf57;
+                    background: #f5ffed;
+                    border: 1px solid #64a131;
+                    outline: none;
+                    display: block;
+                    float: left;
+                    margin-left: 60px;
+                    border-radius: 4px;
+                    font-size: 16px;
+                }
+            }
+            .fivetwo{
+                
+                input{
+                    width: 160px;
+                    height: 36px;
+                    color: #eff4ec;
+                    background: #64a131;
+                    border: none;
+                    outline: none;
+                    display: block;
+                    float: left;
+                    margin-left: 10px;
+                    border-radius: 4px;
+                    font-size: 16px;
+                }
+                
+            }
+        }
+        .hsix{
+            width: 540px;
+            height: 30px;
+            margin-left: 40px;
+            border-top: 1px solid #ddd;
+            
+            .six1{
+                width: 255px;
+                height: 30px;
+                float: left;
+                margin-top: 20px; 
+                h5{
+                        color: #999999;
+                        float: left;
+                        line-height: 28px;
+                        font-weight: 100;
+                        display: block;
+                        
+                }
+                span{
+                    float: left;
+                    display: block;
+                        color: #555;
+                        font-size: 14px;
+                        line-height: 30px;
+                        margin-left: 20px;
+                }
+            }
+            .six2{
+                width: 255px;
+                height: 30px;
+                float: left;
+                margin-top: 20px; 
+                
+                h5{
+                        color: #999999;
+                        float: left;
+                        line-height: 28px;
+                        font-weight: 100;
+                        display: block;
+                        
+                }
+                span{
+                    float: left;
+                    display: block;
+                     color: #555;
+                     font-size: 14px;
+                     line-height: 30px;
+                     margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+.kong{
+    width: 1280px;
+    height: 68px;
+    margin: 0 auto;
+//  background: red;
+}
+.xuan{
+    width: 1280px;
+    height: 2380px;
+    margin: 0 auto;
+//  background: bisque;
+    .xuan1{
+        width: 1000px;
+        height: 2380px;
+        float: left;
+        border: 1px solid #ccc;
+        .small1{
+            width: 1000px;
+            height: 38px;
+          background: #F1F1F1;
+          
+            .jian{
+                width: 140px;
+                line-height: 38px;
+                display: block;
+                float: left;
+                text-align: center;
+                color: #555555;
+                border-right: 1px solid #ccc;
+                background: #fff;
+                border-top: 2px solid #64A131;
+            }
+            .gu{
+                width: 140px;
+                line-height: 38px;
+                display: block;
+                float: left;
+                text-align: center;
+                    color: #555555;
+                    border-right: 1px solid #ccc;
+            }
+            a{
+                width: 170px;
+                line-height: 38px;
+                display: block;
+                float: right;
+                text-align: center;
+                background: #64a131;
+                color: #fff;
+                font-size: 16px;
+                
+            }
+        }
+        .small2{
+            img{
+                width: 1000px;
+            height: 2340px;
+            
+            }
+            
+        }
+         .small3{display: none;
+            img{
+                width: 1000px;
+            height: 2340px;
+            }
+            
+        }
+    }
+    .xuan2{
+        width: 258px;
+//      height: 2380px;
+        line-height: 40px;
+        float: left;
+//      background: blue;
+        margin-left:20px ;
+        border-bottom: 1px solid #ccc;
+        h5{
+            color: #64A131;
+        font-weight: 100;
+        }
+        
+    }
+}
