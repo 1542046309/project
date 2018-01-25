@@ -1,7 +1,7 @@
 
 
 
-window.onload=function(){
+
 	 var phoneck = false;
     $("#phonet").blur(function(){
         phone();
@@ -30,5 +30,17 @@ window.onload=function(){
             $("#usermi").html("")
         }
     }
+    
+    
+    $("#ss").click(function(){
+        show8();
+    })
 	
-}
+	function show8(){
+		var arr = "1234567890";
+		var str = "";
+		for(var i = 0; i < 4; i++){
+			str+=arr[parseInt(Math.random()*arr.length)];
+		}
+		$("#s8").html(str);
+	}
