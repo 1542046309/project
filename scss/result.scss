@@ -226,3 +226,118 @@
      
   }
 }
+.layer{
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: .5;
+        display: none;
+}
+.popbox{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        z-index: 99999;
+        width: 524px;
+        height: 288px;
+        padding: 6px;
+        margin: 0 auto;
+        margin: -144px 0 0 -262px;
+        border: 8px;
+        border-color: rgba(0,0,0,0.5);
+        background: rgba(0,0,0,0.16);
+        display: none;
+        
+        .pop1{
+            width: 512px;
+            height: 40px;
+            background: #EAEAEA;
+            padding-right: 10px;
+            img{
+                float: right;
+                margin-top: 8px;
+                cursor: pointer;
+                
+            }
+        }
+        .pop2{
+            width: 522px;
+            height: 96px;
+            background: #FFFFFF;
+            padding-bottom: 20px;
+            img{
+                width: 60px;
+                height: 68px;
+                float: left;
+                margin-left: 120px;
+                margin-top: 28px;
+                
+            }
+            p{
+                font-size: 30px;
+                color: #555;
+                float: left;
+                margin-top: 40px;
+                margin-left: 15px;
+                
+            }
+        }
+        .pop3{
+            width: 522px;
+            height: 25px;
+            background: #FFFFFF;
+            text-align: center;
+            p{  
+                font-size: 18px;
+                font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+                color: #999;
+                letter-spacing: 2px;
+                margin-left: 25px;
+                em{
+                    color: #f6ab00;
+                    font-style: normal;
+                }
+            }
+        }
+        .pop4{
+            width: 522px;
+            height: 93px;
+            background: #FFFFFF;
+            
+            .po1{
+                width: 147px;
+                height: 40px;
+                background: #f5ffed;
+                border: 1px solid #64a131;
+                font-size: 16px;
+                display: block;
+                color: #64a131;
+                text-align: center;
+                float: left;
+                line-height: 40px;
+                margin-left: 120px;
+                border-radius: 4px;
+                margin-top: 20px;
+            }
+             .po2{
+                width: 147px;
+                height: 40px;
+                background: #64a131;
+                border: 1px solid #64a131;
+                font-size: 16px;
+                display: block;
+                color: #eff4ec;
+                background: #64A131;
+                float: left;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 4px;
+                margin-left: 10px;
+                margin-top: 20px;
+            }
+            
+        }
+}

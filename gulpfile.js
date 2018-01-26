@@ -6,6 +6,11 @@ gulp.task("copy-html",function(){
 	gulp.src("*.html").pipe(gulp.dest("D:\\phpStudy\\WWW\\project"));
 });
 
+//复制php文件
+gulp.task("copy-php",function(){
+	gulp.src("*.php").pipe(gulp.dest("D:\\phpStudy\\WWW\\project"));
+});
+
 //复制img文件
 gulp.task("copy-img",function(){
 	gulp.src("img/**/*").pipe(gulp.dest("D:\\phpStudy\\WWW\\project\\img"));
@@ -30,6 +35,7 @@ gulp.task("copy-css",function(){
 //监听
 gulp.task("watchall",function(){
 	gulp.watch("*.html",["copy-html"]);
+	gulp.watch("*.php",["copy-php"]);
 	 gulp.watch("scss/*.scss",["sassfile"]);
 	gulp.watch("img/**/*",["copy-img"]);
 	gulp.watch("js/**/*",["copy-js"]);

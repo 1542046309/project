@@ -104,3 +104,26 @@ $(function () {
     return false;
   });
   
+
+//弹窗
+$(function(){	
+
+		$(".size2 ").bind("click",function () {
+    			$('.layer').css("display","block");
+    			$('.popbox').css("display","block");
+    			$(this).find('p').css("background-position","left bottom");
+		});
+		
+		$(".pop1img ").bind("click",function () {
+    			$('.layer').css("display","none");
+    			$('.popbox').css("display","none");
+    			$(".size2 p").css("background-position","right top");
+		});
+		
+		$(".po1 ").bind("click",function () {
+    			$('.layer').hide();
+    			$('.popbox').hide();
+    			$(".size2 p").css("background-position","right top");
+		});
+
+	});

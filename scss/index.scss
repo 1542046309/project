@@ -353,12 +353,13 @@ width: 1280px;
                 .size2{
                     
                     p{
+                        display: block;
                         width: 36px;
                         height: 36px;
                        line-height: 30px;
                        margin-top: 15px;
                        background: url("../img/22.png")no-repeat  -2px 2px;
-                       
+                       cursor: pointer;
                     }
                 }
             }
